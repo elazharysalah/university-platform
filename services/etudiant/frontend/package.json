@@ -1,0 +1,8 @@
+{
+  "name": "etudiant-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "echo 'Start frontend here (React or EJS)'"
+  }
+}

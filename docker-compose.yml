@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  etudiant-backend:
+    build: ./services/etudiant/backend
+    ports:
+      - "5001:5001"
+  etudiant-frontend:
+    build: ./services/etudiant/frontend
+    ports:
+      - "3001:3000"
+  doctorant-backend:
+    build: ./services/doctorant/backend
+    ports:
+      - "8000:8000"
+  doctorant-frontend:
+    build: ./services/doctorant/frontend
+    ports:
+      - "3002:3000"
+  admin-backend:
+    build: ./services/administration/backend
+    ports:
+      - "5002:5002"
+  admin-frontend:
+    build: ./services/administration/frontend
+    ports:
+      - "3003:3000"
